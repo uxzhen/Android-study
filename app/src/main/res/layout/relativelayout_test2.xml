@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+相对父元素读取方式 四个方向
+ layout_alignParentBottom
+ layout_alignParentLeft
+
+ 水平居中
+ layout_centerHorizontal
+ 垂直居中
+ layout_centerVertical
+ 水平和垂直居中
+ layout_centerInParent
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_width="180dp" android:layout_height="180dp"
+              android:id="@+id/three"
+              android:gravity="center"
+              android:text="1"
+              android:background="#f00"
+              android:textSize="40sp"
+              android:textColor="#fff"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+    />
+
+</RelativeLayout>
