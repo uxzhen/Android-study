@@ -11,25 +11,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_btn);
+        setContentView(R.layout.edit_test);
         /*获取焦点*/
         //EditText etName = findViewById(R.id.etName);
         //etName.requestFocus();
         //获取第二个文字
         //etName.setSelection(2);
-        btnOne = (Button) findViewById(R.id.btnOne);
-        btnTwo = (Button) findViewById(R.id.btnTwo);
-        btnTwo.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                if(btnTwo.getText().toString().equals("按钮不可用")){
-                    btnOne.setEnabled(false);
-                    btnTwo.setText("按钮可用");
-                }else{
-                    btnOne.setEnabled(true);
-                    btnTwo.setText("按钮不可用");
-                }
-            }
-        });
+        //btnOne = (Button) findViewById(R.id.btnOne);
+        //btnTwo = (Button) findViewById(R.id.btnTwo);
+        //btnTwo.setOnClickListener(new View.OnClickListener(){
+        //    @Override
+        //    public void onClick(View v){
+        //        if(btnTwo.getText().toString().equals("按钮不可用")){
+        //            btnOne.setEnabled(false);
+        //            btnTwo.setText("按钮可用");
+        //        }else{
+        //            btnOne.setEnabled(true);
+        //            btnTwo.setText("按钮不可用");
+        //        }
+        //    }
+        //});
     }
 }
